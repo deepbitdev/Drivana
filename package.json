@@ -14,6 +14,7 @@
     "simplex-noise"
   ],
   "main": "src/index.js",
+  "homepage": "https://deepbitdev.github.io/Drivana/",
   "dependencies": {
     "@react-three/drei": "9.105.0",
     "@react-three/fiber": "8.16.2",
@@ -36,7 +37,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "browserslist": [
     ">0.2%",
